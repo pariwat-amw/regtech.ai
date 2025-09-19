@@ -1,0 +1,147 @@
+{
+  "name": "Regulatory Compliance Review",
+  "description": "Standard process for reviewing regulatory compliance issues",
+  "version": "1.0.0",
+  "priority": "high",
+  "metadata": {},
+  "steps": [
+    {
+      "name": "Initial Assessment",
+      "description": "Conduct initial assessment of compliance issue",
+      "sequence_order": 1,
+      "dependencies": [],
+      "priority": "high",
+      "metadata": {},
+      "owner": {
+        "name": "John Smith",
+        "email": "john@company.com",
+        "department": "Compliance",
+        "role": "Senior Analyst"
+      },
+      "sla": {
+        "name": "Standard SLA",
+        "duration": "2d",
+        "warning_threshold": 0.75,
+        "escalation_rules": []
+      },
+      "work_template": {
+        "name": "Risk Analysis Template",
+        "description": "Template for conducting risk analysis",
+        "checklist": [
+          "Review documentation",
+          "Identify risks",
+          "Assess impact",
+          "Document findings"
+        ],
+        "required_documents": [],
+        "instructions": "Conduct thorough risk analysis following company guidelines",
+        "estimated_duration": "1h"
+      }
+    },
+    {
+      "name": "Legal Review",
+      "description": "Legal team reviews the compliance issue",
+      "sequence_order": 2,
+      "dependencies": [],
+      "priority": "high",
+      "metadata": {},
+      "owner": {
+        "name": "Mary Johnson",
+        "email": "mary@company.com",
+        "department": "Legal",
+        "role": "Legal Counsel"
+      },
+      "sla": {
+        "name": "Review SLA",
+        "duration": "1d",
+        "warning_threshold": 0.9,
+        "escalation_rules": []
+      },
+      "work_template": {
+        "name": "Approval Template",
+        "description": "Template for approval processes",
+        "checklist": [
+          "Review submission",
+          "Check compliance",
+          "Make decision",
+          "Document approval"
+        ],
+        "required_documents": [],
+        "instructions": "Review and approve/reject based on established criteria",
+        "estimated_duration": "1h"
+      }
+    },
+    {
+      "name": "Operations Impact Assessment",
+      "description": "Assess impact on operations",
+      "sequence_order": 3,
+      "dependencies": [],
+      "priority": "medium",
+      "metadata": {},
+      "owner": {
+        "name": "Bob Wilson",
+        "email": "bob@company.com",
+        "department": "Operations",
+        "role": "Operations Manager"
+      },
+      "sla": {
+        "name": "Standard SLA",
+        "duration": "2d",
+        "warning_threshold": 0.75,
+        "escalation_rules": []
+      },
+      "work_template": {
+        "name": "Risk Analysis Template",
+        "description": "Template for conducting risk analysis",
+        "checklist": [
+          "Review documentation",
+          "Identify risks",
+          "Assess impact",
+          "Document findings"
+        ],
+        "required_documents": [],
+        "instructions": "Conduct thorough risk analysis following company guidelines",
+        "estimated_duration": "1h"
+      }
+    },
+    {
+      "name": "Final Decision",
+      "description": "Make final decision and document outcome",
+      "sequence_order": 4,
+      "dependencies": [],
+      "priority": "critical",
+      "metadata": {},
+      "owner": {
+        "name": "John Smith",
+        "email": "john@company.com",
+        "department": "Compliance",
+        "role": "Senior Analyst"
+      },
+      "sla": {
+        "name": "Urgent SLA",
+        "duration": "8h",
+        "warning_threshold": 0.8,
+        "escalation_rules": []
+      },
+      "work_template": {
+        "name": "Approval Template",
+        "description": "Template for approval processes",
+        "checklist": [
+          "Review submission",
+          "Check compliance",
+          "Make decision",
+          "Document approval"
+        ],
+        "required_documents": [],
+        "instructions": "Review and approve/reject based on established criteria",
+        "estimated_duration": "1h"
+      }
+    }
+  ],
+  "owner": {
+    "name": "Compliance Manager",
+    "email": "compliance@company.com",
+    "department": "Compliance",
+    "role": "Manager"
+  }
+}
